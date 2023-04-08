@@ -37,7 +37,7 @@ Save the final data set into the file.
 
 # Code
 ```
-Developed by : Nikhilm.M
+Developed by : Nikhil.M
 Registration Number : 212222230095
 ```
 ```
