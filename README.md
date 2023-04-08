@@ -1,11 +1,11 @@
 # Workshop-Multivariate-analysis
-## Aim
+# Aim
 To perform Multivariate EDA on the given data set.
 
-## Explanation
+# Explanation
 Exploratory data analysis is used to understand the messages within a dataset. This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
 
-## Algorithm
+# Algorithm
 ## Step1
 Import the built libraries required to perform EDA and outlier removal.
 
@@ -35,7 +35,7 @@ Save the final data set into the file.
 
 2)Numerical & Categorical(Bar plot,Box plot,Dist plot)
 
-## Code
+# Code
 ```
 Developed by : Nikhilm.M
 Registration Number : 212222230095
@@ -58,7 +58,7 @@ sns.scatterplot(df['Duration'],df['Price'],hue=df['Dep_Time'])
 sns.barplot(x=df['Dep_Time'],y=df['Price'],data=df)
 df.corr()
 ```
-## Output
+# Output
 
 ## Data Head
 ![Screenshot 1](https://user-images.githubusercontent.com/119401246/229039527-9a4ae1e3-5f38-49c9-8b23-a3877c8b1425.png)
@@ -75,7 +75,7 @@ df.corr()
 ## Non-Graphical method(correlation)
 ![screenshot 5](https://user-images.githubusercontent.com/119401246/229049438-026f7729-937e-4f63-919b-e88bd1d0a621.png)
 
-## Result
+# Result
 Thus we have performed Multivariate EDA on the given data set.
 
 
